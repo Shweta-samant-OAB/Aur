@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+plotly
+openpyxl
+nltk
+matplotlib
+sklearn
+st_clickable_images
