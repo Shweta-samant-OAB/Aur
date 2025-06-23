@@ -5,5 +5,5 @@ plotly
 openpyxl
 nltk
 matplotlib
-sklearn
+scikit-learn
 st_clickable_images
