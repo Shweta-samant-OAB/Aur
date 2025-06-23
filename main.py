@@ -527,14 +527,14 @@ def main():
     else:
         st.info("👆 Please upload your fashion product CSV file to start the analysis")
         
-        # Show expected data structure
-        st.subheader("📋 Expected Data Structure")
-        st.write("Your CSV should contain columns like:")
-        expected_columns = [
-            "name", "brand_name", "category_main", "category_sub", 
-            "price_amount", "color", "availability", "price_point"
-        ]
-        st.write(", ".join(expected_columns))
+        # # Show expected data structure
+        # st.subheader("📋 Expected Data Structure")
+        # st.write("Your CSV should contain columns like:")
+        # expected_columns = [
+        #     "name", "brand_name", "category_main", "category_sub", 
+        #     "price_amount", "color", "availability", "price_point"
+        # ]
+        # st.write(", ".join(expected_columns))
 
 if __name__ == "__main__":
     main()
